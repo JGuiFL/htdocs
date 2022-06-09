@@ -12,6 +12,11 @@ nav{
 	text-align: right;	
 	
 }
+#menu{
+	margin-left: 350px;
+	margin-right: 350px;
+}
+
 li{
 	padding: 15px;
 	margin-left: 10px;
@@ -27,13 +32,41 @@ a{
 	color: #F8F8FF;
 	
 }
-img{
+#logo{
 	float: left;
 	margin-top: 5px;
 	width: 100px;
 }
+
+
 #img-center{
 	margin: 0;
 	width:1920px;
 	height:500px;
+}
+#cards{
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #00779a;
+	color: #f0f8fa;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 350px;
+	margin-right: 350px;	
+	height: 400px;
+	text-align: center;
+}
+
+#video-youtube{
+	height: 500px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 350px;
+	margin-right: 350px;
+}
+
+#rodape{
+	height: 400px;
+	background-color: #00779a;
+	
 }

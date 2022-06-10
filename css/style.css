@@ -56,6 +56,21 @@ a{
 	height: 400px;
 	text-align: center;
 }
+.card{
+	border: solid 5px #fff;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	padding: 30px;
+	display: inline-block;
+	box-shadow: 10px 5px 5px #083d4d;
+}
+
+.card img{
+	max-height: 200px;
+	max-width: 150px;
+}
 
 #video-youtube{
 	height: 500px;

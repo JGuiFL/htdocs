@@ -32,6 +32,11 @@ a{
 	color: #F8F8FF;
 	
 }
+
+.preco{
+	color: orange;
+}
+
 #logo{
 	float: left;
 	margin-top: 5px;

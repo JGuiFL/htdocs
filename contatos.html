@@ -10,14 +10,37 @@
 </head>
 <body>
 	<nav>
-		<img id="logo" src="img/simpsons.png" alt="Logo">
+		<img id="logo" src="img/oralplan.png" alt="Logo">
 		<ul id="menu">
 			<a href="index.html"><li>HOME</li></a>
 			<a href="contatos.html"><li>CONTATOS</LI></a>
 			<a href="sobre.html"><li>SOBRE</li></a>
 		</ul>
 	</nav>
-
+	
+	<section>
+		<div id="div-form">
+			<form method="get" action="contato.php">
+				<label> Digite seu nome: </label> <br />
+				<input type="text" name="nome"> <br />
+				<label> Digite seu e-mail: </label> <br />
+				<input type="email" name="email"> <br />
+				<label>Informe o motivo do contato</label> <br />
+				<select name="tipo-contato">
+					<option value="Duvida">Duvida</option>
+					<option value="Reclamação">Reclamação</option>
+					<option value="Informação">Informação</option>
+				</select> <br />
+				<label> Digite um número</label> <br />
+				<input type="text" name="numero1"> <br />
+				<label> Digite um número</label> <br />
+				<input type="text" name="numero2"> <br />
+				<input type="submit" value="Enviar"> 
+		
+			</form>
+		</div>	
+	
+	</section>
 
 
 	<footer>

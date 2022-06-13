@@ -10,17 +10,18 @@
 	
 	$nome=$_GET["nome"];
 	echo "<br />";
+	$cpf=$_GET["cpf"];
+	echo "<br />";
 	$email=$_GET["email"];
 	echo "<br />";
 	$tipo_contato=$_GET["tipo-contato"];
 	echo "<br />";
-	$numero1=$_GET["numero1"];
-	echo "<br />";
-	$numero2=$_GET["numero2"];
+	
 	
 	echo $nome;
 	echo "<br />";
 	echo $email;
 	echo "<br />";
-	echo $numero1 + $numero2;
+	echo $cpf;
+	
 	

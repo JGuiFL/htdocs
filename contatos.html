@@ -19,23 +19,43 @@
 	</nav>
 	
 	<section>
+
 		<div id="div-form">
 			<form method="get" action="contato.php">
 				<label> Digite seu nome: </label> <br />
-				<input type="text" name="nome"> <br />
+				<input class="input" type="text" name="nome"> <br />
+				<br>
+				<label>CPF:</label> <br />
+				<input class="input" type="text" name="cpf"> <br />
+				<br>
 				<label> Digite seu e-mail: </label> <br />
-				<input type="email" name="email"> <br />
+				<input class="input" type="email" name="email"> <br />
+				<br>
+				<label>Data de nascimento</label> <br />
+				<input class="input" type="datetime" name="data"> <br />
+				<br>
+				<label>Telefone para contato:</label> <br />
+				<input class="input" type="text" name="telefone"> <br />
+				<br>
+				<label>CEP</label> <br />
+				<input class="input" type="text" name="cep"> <br />
+				<br>
+				<label>Endereço:</label> <br />
+				<input class="input" type="text" name="endereco"> <br />
+				<br>
+				<label>Bairro:</label> <br />
+				<input class="input" type="text" name="bairro"> <br />
+				<br>
 				<label>Informe o motivo do contato</label> <br />
 				<select name="tipo-contato">
 					<option value="Duvida">Duvida</option>
 					<option value="Reclamação">Reclamação</option>
 					<option value="Informação">Informação</option>
 				</select> <br />
-				<label> Digite um número</label> <br />
-				<input type="text" name="numero1"> <br />
-				<label> Digite um número</label> <br />
-				<input type="text" name="numero2"> <br />
-				<input type="submit" value="Enviar"> 
+				<label>Mensagem:</label> <br />
+				<input id="mensagem" type="text" name="mensagem"> <br /> 
+				<br>
+				<input id="enviar" type="submit" value="Enviar"> 
 		
 			</form>
 		</div>	

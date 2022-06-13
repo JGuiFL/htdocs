@@ -90,3 +90,30 @@ a{
 	background-color: #00779a;
 	
 }
+
+#div-form{
+	height: 680px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	margin-right: 1490px;
+	border: solid transparent 3px;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #d3d3d3;	
+}
+
+.input{
+	width:250px;
+}
+
+#mensagem{
+	height:100px;
+	width: 250px;
+}
+
+#enviar{
+	background-color:#48d1cc;
+	height: 40px;
+	width: 190px;	
+}
